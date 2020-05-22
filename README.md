@@ -11,4 +11,6 @@ In this repository you will find the following
 # Approach
 At the beginning, the idea was to understand the work described in the article above, try to reproduce the results an get new one. However, even though, I studied Kalman Filters at school, the overall theory felt a little bit overwhelming (i.e. in the context of a side project, I could not spend hours or days trying to get the theory back), second it looked like it was involving building algorithms from scratch and that few readily available packages where out there. Finally, the data preprocessing part took longer than expected. Therefore I used this project as a learning opportunity for Data Wrangling and to try the Facebook package <a href="https://facebook.github.io/prophet/docs/quick_start.html">FbProphet</a>
 
+# Conclusion
 
+The FbProhet package was not a good fit for this purpose. It works best for predictions with longer historical data with the ability to dectect daily, weekly and yearly components of complex Time Series. I will reuse this package in the future for a Stock Price prediction project
